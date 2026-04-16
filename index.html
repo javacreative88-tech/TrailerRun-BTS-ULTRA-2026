@@ -1,0 +1,3280 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Program Latihan Trail Run BTS Ultra 18KM 2026 - panduan latihan lengkap, premium, dan siap upload ke hosting biasa."
+        />
+        <title>Latihan Trail Run BTS Ultra 18KM 2026</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: [
+                                "Inter",
+                                "ui-sans-serif",
+                                "system-ui",
+                                "sans-serif",
+                            ],
+                        },
+                        colors: {
+                            forest: {
+                                50: "#f2f8f3",
+                                100: "#dfece2",
+                                200: "#c0d7c6",
+                                300: "#92b89c",
+                                400: "#63956f",
+                                500: "#3f6f4d",
+                                600: "#30583d",
+                                700: "#234330",
+                                800: "#183326",
+                                900: "#0e241a",
+                            },
+                            ember: {
+                                50: "#fff5eb",
+                                100: "#ffe6cc",
+                                200: "#ffcfa0",
+                                300: "#ffb36a",
+                                400: "#ff9440",
+                                500: "#f97316",
+                                600: "#ea670f",
+                                700: "#c4510d",
+                                800: "#9e410f",
+                                900: "#7f3610",
+                            },
+                        },
+                        boxShadow: {
+                            soft: "0 18px 50px rgba(15, 23, 42, 0.08)",
+                            glow: "0 0 0 1px rgba(255,255,255,0.06), 0 20px 60px rgba(249,115,22,0.14)",
+                        },
+                        animation: {
+                            float: "float 6s ease-in-out infinite",
+                            fadeUp: "fadeUp 0.8s ease forwards",
+                            pulseSoft: "pulseSoft 3s ease-in-out infinite",
+                        },
+                        keyframes: {
+                            float: {
+                                "0%, 100%": { transform: "translateY(0px)" },
+                                "50%": { transform: "translateY(-10px)" },
+                            },
+                            fadeUp: {
+                                "0%": {
+                                    opacity: "0",
+                                    transform: "translateY(18px)",
+                                },
+                                "100%": {
+                                    opacity: "1",
+                                    transform: "translateY(0)",
+                                },
+                            },
+                            pulseSoft: {
+                                "0%, 100%": {
+                                    boxShadow: "0 0 0 0 rgba(249,115,22,0.28)",
+                                },
+                                "50%": {
+                                    boxShadow: "0 0 0 12px rgba(249,115,22,0)",
+                                },
+                            },
+                        },
+                    },
+                },
+            };
+        </script>
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                background:
+                    radial-gradient(
+                        circle at top left,
+                        rgba(249, 115, 22, 0.08),
+                        transparent 30%
+                    ),
+                    radial-gradient(
+                        circle at top right,
+                        rgba(34, 197, 94, 0.08),
+                        transparent 26%
+                    ),
+                    linear-gradient(
+                        180deg,
+                        #f8fafc 0%,
+                        #f4f7fb 35%,
+                        #eef4f0 100%
+                    );
+            }
+            .glass {
+                backdrop-filter: blur(16px);
+                -webkit-backdrop-filter: blur(16px);
+                background: rgba(255, 255, 255, 0.78);
+            }
+            .section-divider {
+                background: linear-gradient(
+                    90deg,
+                    rgba(148, 163, 184, 0),
+                    rgba(148, 163, 184, 0.45),
+                    rgba(148, 163, 184, 0)
+                );
+                height: 1px;
+            }
+            .mountain-bg {
+                background:
+                    radial-gradient(
+                        circle at 18% 22%,
+                        rgba(255, 255, 255, 0.14),
+                        transparent 18%
+                    ),
+                    linear-gradient(
+                        135deg,
+                        rgba(15, 23, 42, 0.92),
+                        rgba(21, 51, 36, 0.94) 55%,
+                        rgba(249, 115, 22, 0.78)
+                    );
+            }
+            .grid-pattern {
+                background-image:
+                    linear-gradient(
+                        rgba(255, 255, 255, 0.04) 1px,
+                        transparent 1px
+                    ),
+                    linear-gradient(
+                        90deg,
+                        rgba(255, 255, 255, 0.04) 1px,
+                        transparent 1px
+                    );
+                background-size: 32px 32px;
+            }
+            .fade-in {
+                opacity: 0;
+                transform: translateY(18px);
+                transition:
+                    opacity 0.7s ease,
+                    transform 0.7s ease;
+            }
+            .fade-in.is-visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            .nav-link.active {
+                color: #f97316;
+            }
+            .week-card.hidden-phase {
+                display: none;
+            }
+            .faq-panel {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.35s ease;
+            }
+            .faq-item.open .faq-panel {
+                max-height: 240px;
+            }
+            .progress-fill {
+                width: 0;
+                transition: width 1s ease;
+            }
+            .progress-fill.animate {
+                width: var(--target-width);
+            }
+        </style>
+    </head>
+    <body
+        class="font-sans text-slate-800 antialiased selection:bg-ember-200 selection:text-slate-900"
+    >
+        <header
+            class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur-xl"
+        >
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between py-4">
+                    <a href="#top" class="group flex items-center gap-3">
+                        <div
+                            class="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-forest-700 to-ember-500 text-white shadow-glow"
+                        >
+                            <i data-lucide="mountain" class="h-5 w-5"></i>
+                        </div>
+                        <div>
+                            <div
+                                class="text-sm font-semibold uppercase tracking-[0.22em] text-forest-800"
+                            >
+                                BTS Ultra
+                            </div>
+                            <div class="text-sm text-slate-500">
+                                Trail Run 18KM 2026
+                            </div>
+                        </div>
+                    </a>
+
+                    <nav
+                        class="hidden items-center gap-1 lg:flex"
+                        aria-label="Navigasi utama"
+                    >
+                        <a
+                            href="#tentang"
+                            class="nav-link rounded-full px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100"
+                            >Tentang</a
+                        >
+                        <a
+                            href="#target"
+                            class="nav-link rounded-full px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100"
+                            >Target</a
+                        >
+                        <a
+                            href="#program"
+                            class="nav-link rounded-full px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100"
+                            >Program</a
+                        >
+                        <a
+                            href="#intensitas"
+                            class="nav-link rounded-full px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100"
+                            >Intensitas</a
+                        >
+                        <a
+                            href="#gear"
+                            class="nav-link rounded-full px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100"
+                            >Gear</a
+                        >
+                        <a
+                            href="#faq"
+                            class="nav-link rounded-full px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100"
+                            >FAQ</a
+                        >
+                    </nav>
+
+                    <div class="hidden items-center gap-3 md:flex">
+                        <a
+                            href="#program"
+                            class="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-ember-300 hover:text-ember-700"
+                            >Lihat Program</a
+                        >
+                        <a
+                            href="#cta"
+                            class="rounded-full bg-forest-800 px-4 py-2 text-sm font-semibold text-white shadow-soft transition hover:bg-forest-700"
+                            >Mulai Latihan</a
+                        >
+                    </div>
+
+                    <button
+                        id="menuBtn"
+                        class="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-200 bg-white text-slate-700 shadow-sm lg:hidden"
+                        aria-label="Buka menu"
+                    >
+                        <i data-lucide="menu" class="h-5 w-5"></i>
+                    </button>
+                </div>
+
+                <div id="mobileMenu" class="hidden pb-4 lg:hidden">
+                    <div
+                        class="glass rounded-2xl border border-white/60 p-3 shadow-soft"
+                    >
+                        <div class="grid gap-2 sm:grid-cols-2">
+                            <a
+                                href="#tentang"
+                                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100"
+                                >Tentang Program</a
+                            >
+                            <a
+                                href="#target"
+                                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100"
+                                >Ringkasan Target</a
+                            >
+                            <a
+                                href="#program"
+                                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100"
+                                >Program 16 Minggu</a
+                            >
+                            <a
+                                href="#gear"
+                                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-700 hover:bg-slate-100"
+                                >Gear & Nutrisi</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="top">
+            <section class="relative overflow-hidden">
+                <div class="absolute inset-0 mountain-bg"></div>
+                <div class="absolute inset-0 grid-pattern opacity-60"></div>
+                <div
+                    class="absolute -left-16 top-24 h-72 w-72 rounded-full bg-ember-500/20 blur-3xl animate-float"
+                ></div>
+                <div
+                    class="absolute right-0 top-20 h-80 w-80 rounded-full bg-forest-400/20 blur-3xl animate-float"
+                    style="animation-delay: 1.2s"
+                ></div>
+
+                <div
+                    class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24"
+                >
+                    <div
+                        class="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]"
+                    >
+                        <div class="text-white fade-in">
+                            <div class="mb-5 flex flex-wrap gap-3">
+                                <span
+                                    class="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white/90"
+                                    >18 KM</span
+                                >
+                                <span
+                                    class="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white/90"
+                                    >Trail Run</span
+                                >
+                                <span
+                                    class="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white/90"
+                                    >Elevation Ready</span
+                                >
+                                <span
+                                    class="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white/90"
+                                    >2026 Goal</span
+                                >
+                            </div>
+                            <h1
+                                class="max-w-4xl text-4xl font-black tracking-tight sm:text-5xl lg:text-7xl"
+                            >
+                                Program Latihan Trail Run BTS Ultra 18KM 2026
+                            </h1>
+                            <p
+                                class="mt-6 max-w-2xl text-lg leading-8 text-slate-100 sm:text-xl"
+                            >
+                                Panduan latihan trail run premium untuk membantu
+                                Anda menyelesaikan race 18 km dengan aman, kuat,
+                                dan optimal. Fokus pada endurance, climbing,
+                                descending, teknik tanjakan, pengelolaan tenaga,
+                                dan kesiapan mental agar hari lomba terasa
+                                terkendali dari start sampai finish.
+                            </p>
+                            <div class="mt-8 flex flex-wrap gap-4">
+                                <a
+                                    href="#program"
+                                    class="inline-flex items-center gap-2 rounded-full bg-ember-500 px-6 py-3 text-sm font-bold text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-ember-400"
+                                >
+                                    <i data-lucide="route" class="h-4 w-4"></i>
+                                    Lihat Program Latihan
+                                </a>
+                                <a
+                                    href="#target"
+                                    class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-white/15"
+                                >
+                                    <i data-lucide="flag" class="h-4 w-4"></i>
+                                    Target Finish Plan
+                                </a>
+                            </div>
+                            <div
+                                class="mt-10 grid max-w-3xl gap-4 sm:grid-cols-3"
+                            >
+                                <div
+                                    class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-md"
+                                >
+                                    <div class="text-3xl font-black">18K</div>
+                                    <div class="mt-1 text-sm text-slate-100">
+                                        Target race jarak menengah dengan
+                                        kebutuhan endurance dan kontrol elevasi.
+                                    </div>
+                                </div>
+                                <div
+                                    class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-md"
+                                >
+                                    <div class="text-3xl font-black">16</div>
+                                    <div class="mt-1 text-sm text-slate-100">
+                                        Minggu program progresif dari base
+                                        building hingga taper race week.
+                                    </div>
+                                </div>
+                                <div
+                                    class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-md"
+                                >
+                                    <div class="text-3xl font-black">5x</div>
+                                    <div class="mt-1 text-sm text-slate-100">
+                                        Sesi latihan utama per minggu dengan
+                                        recovery yang tetap dijaga.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fade-in">
+                            <div
+                                class="relative overflow-hidden rounded-[2rem] border border-white/15 bg-white/10 p-5 shadow-soft backdrop-blur-xl"
+                            >
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-ember-500/10"
+                                ></div>
+                                <div
+                                    class="relative rounded-[1.5rem] bg-slate-950/60 p-5 text-white"
+                                >
+                                    <div
+                                        class="flex items-center justify-between"
+                                    >
+                                        <div>
+                                            <p
+                                                class="text-xs uppercase tracking-[0.26em] text-slate-300"
+                                            >
+                                                Season Blueprint
+                                            </p>
+                                            <h2 class="mt-2 text-2xl font-bold">
+                                                Road to BTS Ultra
+                                            </h2>
+                                        </div>
+                                        <div
+                                            class="rounded-2xl bg-ember-500/20 px-3 py-2 text-right"
+                                        >
+                                            <div class="text-xs text-ember-100">
+                                                Race Ready
+                                            </div>
+                                            <div
+                                                class="font-bold text-ember-50"
+                                            >
+                                                Premium Plan
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                                        <div
+                                            class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10"
+                                        >
+                                            <div
+                                                class="flex items-center gap-3 text-sm font-semibold text-forest-100"
+                                            >
+                                                <i
+                                                    data-lucide="signal-high"
+                                                    class="h-4 w-4"
+                                                ></i>
+                                                Fokus Utama
+                                            </div>
+                                            <p
+                                                class="mt-2 text-sm leading-6 text-slate-300"
+                                            >
+                                                Endurance trail, climbing power,
+                                                descending control, technical
+                                                footing, race-day pacing, dan
+                                                nutrisi yang mudah dipraktikkan.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10"
+                                        >
+                                            <div
+                                                class="flex items-center gap-3 text-sm font-semibold text-ember-100"
+                                            >
+                                                <i
+                                                    data-lucide="heart-pulse"
+                                                    class="h-4 w-4"
+                                                ></i>
+                                                Prinsip Latihan
+                                            </div>
+                                            <p
+                                                class="mt-2 text-sm leading-6 text-slate-300"
+                                            >
+                                                Bangun base, tambah hill work,
+                                                kunci efisiensi lari, lalu
+                                                turunkan beban secara bertahap
+                                                sebelum lomba.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10"
+                                        >
+                                            <div
+                                                class="flex items-center gap-3 text-sm font-semibold text-sky-100"
+                                            >
+                                                <i
+                                                    data-lucide="timer-reset"
+                                                    class="h-4 w-4"
+                                                ></i>
+                                                Ritme Program
+                                            </div>
+                                            <p
+                                                class="mt-2 text-sm leading-6 text-slate-300"
+                                            >
+                                                Konsisten 5-6 hari aktif, 1-2
+                                                hari recovery, dengan long run
+                                                yang naik bertahap mengikuti
+                                                adaptasi tubuh.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10"
+                                        >
+                                            <div
+                                                class="flex items-center gap-3 text-sm font-semibold text-emerald-100"
+                                            >
+                                                <i
+                                                    data-lucide="trophy"
+                                                    class="h-4 w-4"
+                                                ></i>
+                                                Target Akhir
+                                            </div>
+                                            <p
+                                                class="mt-2 text-sm leading-6 text-slate-300"
+                                            >
+                                                Finish kuat, tidak panik di
+                                                tanjakan, tidak meledak di awal,
+                                                dan punya cadangan tenaga untuk
+                                                kilometer akhir.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="mt-6 rounded-2xl bg-gradient-to-r from-forest-700 to-forest-900 p-4"
+                                    >
+                                        <div
+                                            class="flex items-center justify-between gap-4"
+                                        >
+                                            <div>
+                                                <div
+                                                    class="text-xs uppercase tracking-[0.2em] text-forest-100"
+                                                >
+                                                    Status Latihan
+                                                </div>
+                                                <div
+                                                    class="mt-1 font-semibold text-white"
+                                                >
+                                                    Stabil, progresif, dan siap
+                                                    diadaptasi untuk level
+                                                    peserta
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="rounded-2xl bg-white/10 px-4 py-2 text-sm font-bold text-white"
+                                            >
+                                                2026 Edition
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="tentang"
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20 fade-in"
+            >
+                <div class="max-w-3xl">
+                    <p
+                        class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                    >
+                        Tentang Program
+                    </p>
+                    <h2
+                        class="mt-3 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl"
+                    >
+                        Dirancang untuk pelari yang ingin naik kelas ke trail 18
+                        km dengan struktur latihan yang jelas.
+                    </h2>
+                    <p class="mt-5 text-lg leading-8 text-slate-600">
+                        Program ini cocok untuk pelari pemula aktif yang sudah
+                        terbiasa bergerak rutin, intermediate runner yang ingin
+                        memperkuat performa trail, dan pelari road run yang
+                        ingin beralih ke medan berbatu, tanah, tanjakan, serta
+                        turunan teknis. Tujuannya bukan hanya “bisa finish”,
+                        tetapi finish dengan kontrol tenaga, tubuh yang tetap
+                        segar, dan risiko cedera yang lebih rendah.
+                    </p>
+                </div>
+
+                <div class="mt-10 grid gap-6 lg:grid-cols-2">
+                    <div
+                        class="rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-soft"
+                    >
+                        <div class="flex items-center gap-3 text-forest-800">
+                            <i data-lucide="users" class="h-5 w-5"></i>
+                            <h3 class="text-xl font-bold">Siapa yang cocok?</h3>
+                        </div>
+                        <ul class="mt-4 space-y-3 text-slate-600">
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-forest-600"
+                                ></i
+                                ><span
+                                    ><strong class="text-slate-800"
+                                        >Pemula aktif</strong
+                                    >
+                                    yang sudah bisa lari 3-5 kali per minggu dan
+                                    ingin pendekatan yang aman.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-forest-600"
+                                ></i
+                                ><span
+                                    ><strong class="text-slate-800"
+                                        >Intermediate</strong
+                                    >
+                                    yang ingin memperkuat climbing, kontrol
+                                    turunan, dan daya tahan race.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-forest-600"
+                                ></i
+                                ><span
+                                    ><strong class="text-slate-800"
+                                        >Road runner</strong
+                                    >
+                                    yang baru pindah ke trail dan butuh adaptasi
+                                    footing serta effort management.</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-soft"
+                    >
+                        <div class="flex items-center gap-3 text-ember-700">
+                            <i data-lucide="compass" class="h-5 w-5"></i>
+                            <h3 class="text-xl font-bold">Fokus latihan</h3>
+                        </div>
+                        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                            <div class="rounded-2xl bg-slate-50 p-4">
+                                <div class="font-semibold text-slate-900">
+                                    Endurance
+                                </div>
+                                <p
+                                    class="mt-1 text-sm leading-6 text-slate-600"
+                                >
+                                    Membangun kapasitas aerobik agar tubuh tahan
+                                    di durasi 18 km trail.
+                                </p>
+                            </div>
+                            <div class="rounded-2xl bg-slate-50 p-4">
+                                <div class="font-semibold text-slate-900">
+                                    Climbing
+                                </div>
+                                <p
+                                    class="mt-1 text-sm leading-6 text-slate-600"
+                                >
+                                    Melatih power tanjakan, cadence stabil, dan
+                                    penggunaan napas yang efisien.
+                                </p>
+                            </div>
+                            <div class="rounded-2xl bg-slate-50 p-4">
+                                <div class="font-semibold text-slate-900">
+                                    Descending
+                                </div>
+                                <p
+                                    class="mt-1 text-sm leading-6 text-slate-600"
+                                >
+                                    Mengasah kontrol kaki, balance, dan
+                                    keberanian menurun tanpa membebani lutut.
+                                </p>
+                            </div>
+                            <div class="rounded-2xl bg-slate-50 p-4">
+                                <div class="font-semibold text-slate-900">
+                                    Technical trail
+                                </div>
+                                <p
+                                    class="mt-1 text-sm leading-6 text-slate-600"
+                                >
+                                    Menyiapkan tubuh menghadapi akar, batu,
+                                    licin, tanjakan curam, dan perubahan
+                                    permukaan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 grid gap-6 lg:grid-cols-3">
+                    <div
+                        class="rounded-[1.5rem] bg-gradient-to-br from-forest-800 to-forest-950 p-6 text-white shadow-soft"
+                    >
+                        <h3 class="text-lg font-bold">Hasil yang diharapkan</h3>
+                        <p class="mt-3 text-sm leading-7 text-forest-100">
+                            Setelah mengikuti program secara konsisten, peserta
+                            diharapkan mampu mempertahankan effort dengan lebih
+                            stabil, punya kaki yang lebih tahan di tanjakan,
+                            serta mampu finish race dengan strategi yang rapi.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <h3 class="text-lg font-bold text-slate-900">
+                            Trail run vs road run
+                        </h3>
+                        <p class="mt-3 text-sm leading-7 text-slate-600">
+                            Trail run menuntut adaptasi medan, ketinggian, dan
+                            kontrol kaki yang lebih kompleks. Road run cenderung
+                            lebih stabil, sedangkan trail membutuhkan kekuatan
+                            otot penyangga, fokus, dan kemampuan mengubah ritme
+                            sesuai kontur.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <h3 class="text-lg font-bold text-slate-900">
+                            Nilai utama program
+                        </h3>
+                        <p class="mt-3 text-sm leading-7 text-slate-600">
+                            Program ini memadukan performa dan keselamatan.
+                            Latihan disusun agar peserta berkembang tanpa
+                            terlalu agresif, sehingga lebih sustainable untuk
+                            event dan latihan jangka panjang.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="target"
+                class="border-y border-slate-200/80 bg-white/70 py-16 lg:py-20 fade-in"
+            >
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-3xl">
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            Ringkasan Target Event
+                        </p>
+                        <h2
+                            class="mt-3 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl"
+                        >
+                            Satu halaman untuk memahami arah latihan, ekspektasi
+                            race, dan kesiapan finish.
+                        </h2>
+                    </div>
+
+                    <div class="mt-10 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+                        <article
+                            class="rounded-[1.75rem] bg-slate-950 p-6 text-white shadow-soft"
+                        >
+                            <div class="flex items-center gap-3 text-ember-300">
+                                <i data-lucide="map-pinned" class="h-5 w-5"></i>
+                                <h3 class="font-bold">Target event</h3>
+                            </div>
+                            <p class="mt-3 text-2xl font-black">
+                                BTS Ultra 18KM 2026
+                            </p>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Race target menengah yang menuntut kombinasi
+                                stamina, kekuatan tanjakan, dan efisiensi
+                                turunan.
+                            </p>
+                        </article>
+                        <article
+                            class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                        >
+                            <div
+                                class="flex items-center gap-3 text-forest-700"
+                            >
+                                <i data-lucide="stairs" class="h-5 w-5"></i>
+                                <h3 class="font-bold">Fokus</h3>
+                            </div>
+                            <p
+                                class="mt-3 text-lg font-semibold text-slate-900"
+                            >
+                                Endurance, climbing, descending, technical trail
+                                readiness
+                            </p>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Empat pilar ini menjadi fondasi agar pelari
+                                tidak hanya kuat secara aerobik, tetapi juga
+                                efisien di kontur yang berubah-ubah.
+                            </p>
+                        </article>
+                        <article
+                            class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                        >
+                            <div class="flex items-center gap-3 text-ember-700">
+                                <i
+                                    data-lucide="flag-triangle-right"
+                                    class="h-5 w-5"
+                                ></i>
+                                <h3 class="font-bold">Target finish</h3>
+                            </div>
+                            <p
+                                class="mt-3 text-lg font-semibold text-slate-900"
+                            >
+                                Finish kuat, terkontrol, tanpa meledak di awal
+                            </p>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Rencana ini menekankan konservasi energi agar
+                                kilometer akhir tetap bisa dipacu ketika tubuh
+                                masih responsif.
+                            </p>
+                        </article>
+                        <article
+                            class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                        >
+                            <div class="flex items-center gap-3 text-sky-700">
+                                <i data-lucide="footprints" class="h-5 w-5"></i>
+                                <h3 class="font-bold">Target pace latihan</h3>
+                            </div>
+                            <p
+                                class="mt-3 text-lg font-semibold text-slate-900"
+                            >
+                                Easy run harus terasa ringan; tempo cukup
+                                menantang tetapi tetap terkontrol
+                            </p>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Pace latihan mengikuti effort, bukan ego. Di
+                                trail, tenaga yang stabil lebih penting daripada
+                                angka pace yang agresif.
+                            </p>
+                        </article>
+                        <article
+                            class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                        >
+                            <div
+                                class="flex items-center gap-3 text-emerald-700"
+                            >
+                                <i
+                                    data-lucide="mountain-snow"
+                                    class="h-5 w-5"
+                                ></i>
+                                <h3 class="font-bold">
+                                    Vertical gain adaptation
+                                </h3>
+                            </div>
+                            <p
+                                class="mt-3 text-lg font-semibold text-slate-900"
+                            >
+                                Adaptasi tanjakan bertahap setiap 2-4 minggu
+                            </p>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Peningkatan elevasi dilakukan secara progresif
+                                untuk membangun kekuatan tanpa menumpuk beban
+                                berlebihan.
+                            </p>
+                        </article>
+                        <article
+                            class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                        >
+                            <div class="flex items-center gap-3 text-slate-700">
+                                <i data-lucide="brain" class="h-5 w-5"></i>
+                                <h3 class="font-bold">
+                                    Race strategy overview
+                                </h3>
+                            </div>
+                            <p
+                                class="mt-3 text-lg font-semibold text-slate-900"
+                            >
+                                Start konservatif, naikkan effort saat tubuh
+                                sudah hangat, lalu serang finish
+                            </p>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Strategi ini menjaga Anda dari lari terlalu
+                                cepat di awal yang sering berujung fade di
+                                tengah lomba.
+                            </p>
+                        </article>
+                    </div>
+
+                    <div
+                        class="mt-6 rounded-[1.75rem] bg-gradient-to-r from-forest-900 to-slate-950 p-6 text-white shadow-soft"
+                    >
+                        <div class="grid gap-4 md:grid-cols-4">
+                            <div>
+                                <div
+                                    class="text-xs uppercase tracking-[0.2em] text-forest-200"
+                                >
+                                    Race day mindset
+                                </div>
+                                <div class="mt-2 text-base font-semibold">
+                                    Tenang, adaptif, fokus di satu segmen pada
+                                    satu waktu.
+                                </div>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-xs uppercase tracking-[0.2em] text-forest-200"
+                                >
+                                    Start
+                                </div>
+                                <div class="mt-2 text-sm text-slate-300">
+                                    Jaga napas, jangan terpancing pace peserta
+                                    lain.
+                                </div>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-xs uppercase tracking-[0.2em] text-forest-200"
+                                >
+                                    Mid race
+                                </div>
+                                <div class="mt-2 text-sm text-slate-300">
+                                    Naikkan effort hanya saat ritme, makan, dan
+                                    hidrasi aman.
+                                </div>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-xs uppercase tracking-[0.2em] text-forest-200"
+                                >
+                                    Finish
+                                </div>
+                                <div class="mt-2 text-sm text-slate-300">
+                                    Simpan gigi terakhir untuk push ketika
+                                    target sudah dekat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+            >
+                <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-6">
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200 xl:col-span-2"
+                    >
+                        <div class="flex items-center gap-3 text-forest-700">
+                            <i data-lucide="calendar-range" class="h-5 w-5"></i>
+                            <h3 class="font-bold">Durasi program</h3>
+                        </div>
+                        <div class="mt-4 text-5xl font-black text-slate-900">
+                            16
+                        </div>
+                        <p class="mt-2 text-sm leading-6 text-slate-600">
+                            Minggu progresif, termasuk fase base, build,
+                            spesifik, peak, dan taper.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <div class="flex items-center gap-3 text-ember-700">
+                            <i data-lucide="repeat-2" class="h-5 w-5"></i>
+                            <h3 class="font-bold">Sesi per minggu</h3>
+                        </div>
+                        <div class="mt-4 text-4xl font-black text-slate-900">
+                            5-6
+                        </div>
+                        <p class="mt-2 text-sm text-slate-600">
+                            Termasuk easy run, kualitas, strength, dan recovery
+                            aktif.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <div class="flex items-center gap-3 text-sky-700">
+                            <i data-lucide="route" class="h-5 w-5"></i>
+                            <h3 class="font-bold">Long run</h3>
+                        </div>
+                        <div class="mt-4 text-4xl font-black text-slate-900">
+                            1x
+                        </div>
+                        <p class="mt-2 text-sm text-slate-600">
+                            Setiap minggu dengan jarak bertahap dan kontur yang
+                            makin spesifik.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <div class="flex items-center gap-3 text-emerald-700">
+                            <i data-lucide="hill-climb" class="h-5 w-5"></i>
+                            <h3 class="font-bold">Hill session</h3>
+                        </div>
+                        <div class="mt-4 text-4xl font-black text-slate-900">
+                            1x
+                        </div>
+                        <p class="mt-2 text-sm text-slate-600">
+                            Membangun power naik, cadence, dan toleransi kerja
+                            otot.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <div class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="dumbbell" class="h-5 w-5"></i>
+                            <h3 class="font-bold">Strength session</h3>
+                        </div>
+                        <div class="mt-4 text-4xl font-black text-slate-900">
+                            2x
+                        </div>
+                        <p class="mt-2 text-sm text-slate-600">
+                            Fokus glute, core, kaki, dan stabilitas ankle.
+                        </p>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <div class="flex items-center gap-3 text-rose-700">
+                            <i data-lucide="heart-off" class="h-5 w-5"></i>
+                            <h3 class="font-bold">Recovery day</h3>
+                        </div>
+                        <div class="mt-4 text-4xl font-black text-slate-900">
+                            1-2
+                        </div>
+                        <p class="mt-2 text-sm text-slate-600">
+                            Menjaga kualitas adaptasi dan menekan risiko overuse
+                            injury.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="mt-8 rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                >
+                    <div
+                        class="flex flex-wrap items-center justify-between gap-3"
+                    >
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">
+                                Target progress
+                            </h3>
+                            <p class="mt-1 text-sm text-slate-500">
+                                Naik bertahap dalam tiga dimensi: volume,
+                                elevasi, dan kestabilan effort.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-full bg-forest-50 px-4 py-2 text-sm font-semibold text-forest-800"
+                        >
+                            Progress bar akan aktif saat section terlihat
+                        </div>
+                    </div>
+                    <div class="mt-6 grid gap-4 md:grid-cols-3">
+                        <div>
+                            <div
+                                class="mb-2 flex items-center justify-between text-sm font-medium text-slate-600"
+                            >
+                                <span>Volume lari</span><span>85%</span>
+                            </div>
+                            <div
+                                class="h-3 overflow-hidden rounded-full bg-slate-100"
+                            >
+                                <div
+                                    class="progress-fill h-full rounded-full bg-gradient-to-r from-forest-700 to-forest-500"
+                                    style="--target-width: 85%"
+                                ></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="mb-2 flex items-center justify-between text-sm font-medium text-slate-600"
+                            >
+                                <span>Climbing readiness</span><span>80%</span>
+                            </div>
+                            <div
+                                class="h-3 overflow-hidden rounded-full bg-slate-100"
+                            >
+                                <div
+                                    class="progress-fill h-full rounded-full bg-gradient-to-r from-ember-600 to-ember-400"
+                                    style="--target-width: 80%"
+                                ></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="mb-2 flex items-center justify-between text-sm font-medium text-slate-600"
+                            >
+                                <span>Race confidence</span><span>90%</span>
+                            </div>
+                            <div
+                                class="h-3 overflow-hidden rounded-full bg-slate-100"
+                            >
+                                <div
+                                    class="progress-fill h-full rounded-full bg-gradient-to-r from-slate-700 to-slate-500"
+                                    style="--target-width: 90%"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="program"
+                class="border-y border-slate-200/80 bg-slate-950 py-16 text-white lg:py-20 fade-in"
+            >
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div
+                        class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between"
+                    >
+                        <div class="max-w-3xl">
+                            <p
+                                class="text-sm font-bold uppercase tracking-[0.26em] text-ember-300"
+                            >
+                                Program Latihan Mingguan
+                            </p>
+                            <h2
+                                class="mt-3 text-3xl font-black tracking-tight sm:text-4xl"
+                            >
+                                16 minggu progresif: dari base building sampai
+                                taper.
+                            </h2>
+                            <p class="mt-4 text-slate-300">
+                                Gunakan filter fase di bawah untuk melihat
+                                struktur mingguan. Setiap minggu berisi fokus,
+                                estimasi jarak, intensitas, dan jadwal harian
+                                Senin sampai Minggu.
+                            </p>
+                        </div>
+                        <div class="flex flex-wrap gap-2" id="phaseFilters">
+                            <button
+                                class="phase-btn rounded-full bg-ember-500 px-4 py-2 text-sm font-bold text-white"
+                                data-phase="all"
+                            >
+                                Semua
+                            </button>
+                            <button
+                                class="phase-btn rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15"
+                                data-phase="base"
+                            >
+                                Base Building
+                            </button>
+                            <button
+                                class="phase-btn rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15"
+                                data-phase="strength"
+                            >
+                                Strength & Climbing
+                            </button>
+                            <button
+                                class="phase-btn rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15"
+                                data-phase="specific"
+                            >
+                                Endurance & Specific
+                            </button>
+                            <button
+                                class="phase-btn rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/15"
+                                data-phase="peak"
+                            >
+                                Peak & Taper
+                            </button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4"
+                        id="weeksGrid"
+                    ></div>
+                </div>
+            </section>
+
+            <section
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+            >
+                <div class="grid gap-6 lg:grid-cols-2">
+                    <div
+                        class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            Jadwal Harian Contoh
+                        </p>
+                        <h2 class="mt-3 text-2xl font-black text-slate-900">
+                            Template mingguan yang rapi dan mudah diikuti
+                        </h2>
+                        <div class="mt-6 grid gap-3">
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-slate-50 p-4"
+                            >
+                                <span class="font-semibold text-slate-900"
+                                    >Senin</span
+                                ><span class="text-slate-600"
+                                    >Recovery / mobility</span
+                                >
+                            </div>
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-slate-50 p-4"
+                            >
+                                <span class="font-semibold text-slate-900"
+                                    >Selasa</span
+                                ><span class="text-slate-600"
+                                    >Easy run / interval</span
+                                >
+                            </div>
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-slate-50 p-4"
+                            >
+                                <span class="font-semibold text-slate-900"
+                                    >Rabu</span
+                                ><span class="text-slate-600">Strength</span>
+                            </div>
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-slate-50 p-4"
+                            >
+                                <span class="font-semibold text-slate-900"
+                                    >Kamis</span
+                                ><span class="text-slate-600"
+                                    >Tempo / hill</span
+                                >
+                            </div>
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-slate-50 p-4"
+                            >
+                                <span class="font-semibold text-slate-900"
+                                    >Jumat</span
+                                ><span class="text-slate-600">Rest / core</span>
+                            </div>
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-forest-50 p-4"
+                            >
+                                <span class="font-semibold text-forest-900"
+                                    >Sabtu</span
+                                ><span class="text-forest-700"
+                                    >Long run trail</span
+                                >
+                            </div>
+                            <div
+                                class="flex items-center justify-between rounded-2xl bg-slate-50 p-4"
+                            >
+                                <span class="font-semibold text-slate-900"
+                                    >Minggu</span
+                                ><span class="text-slate-600"
+                                    >Recovery jog / hike</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="rounded-[1.75rem] bg-gradient-to-br from-forest-800 to-slate-950 p-6 text-white shadow-soft"
+                    >
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-forest-200"
+                        >
+                            Kaidah Jadwal
+                        </p>
+                        <ul
+                            class="mt-5 space-y-4 text-sm leading-7 text-slate-300"
+                        >
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Latihan kualitas hanya 2 sesi per minggu
+                                    agar tubuh punya ruang pulih.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Long run tetap prioritas, tetapi intensitas
+                                    tidak dipaksa terlalu tinggi di semua
+                                    minggu.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Hari recovery wajib dijaga. Mengabaikan
+                                    recovery sering membuat program berhenti di
+                                    tengah jalan.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="check-circle-2"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Untuk trail, kualitas kaki dan stabilitas
+                                    tubuh lebih penting daripada volume yang
+                                    terlalu besar.</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="intensitas" class="bg-white/80 py-16 lg:py-20 fade-in">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-3xl">
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            Zona Intensitas Latihan
+                        </p>
+                        <h2
+                            class="mt-3 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl"
+                        >
+                            Setiap jenis latihan punya tujuan, intensitas, dan
+                            waktu yang tepat.
+                        </h2>
+                        <p class="mt-4 text-sm leading-7 text-slate-500">
+                            Klik salah satu kartu untuk melihat arti, contoh
+                            gerakan, dan repetisi yang biasanya dipakai dalam
+                            program ini.
+                        </p>
+                    </div>
+                    <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                        <button
+                            type="button"
+                            data-intensity-modal="easyRun"
+                            class="intensity-card rounded-[1.5rem] bg-slate-950 p-6 text-left text-white shadow-soft transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold">Easy run</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Tujuan: membangun aerobik dan pemulihan.
+                                Intensitas: ringan. Durasi: 30-70 menit.
+                                Manfaat: menjaga konsistensi. Kapan: 1-2 kali
+                                per minggu.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-white/90"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="tempoRun"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">Tempo run</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: mengangkat threshold. Intensitas:
+                                sedang-berat. Durasi: 15-30 menit kerja inti.
+                                Manfaat: tahan effort. Kapan: minggu build dan
+                                spesifik.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="interval"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">Interval</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: meningkatkan speed economy. Intensitas:
+                                berat singkat. Durasi: 30 detik-4 menit per
+                                repetisi. Manfaat: efisiensi. Kapan: saat tubuh
+                                segar.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="hillRepeat"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">
+                                Hill repeat
+                            </h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: power tanjakan. Intensitas:
+                                sedang-berat. Durasi: 45 detik-5 menit. Manfaat:
+                                kaki lebih kuat dan napas lebih siap di elevasi.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="longRun"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">Long run</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: daya tahan dan fueling practice.
+                                Intensitas: ringan-sedang. Durasi: 75-150 menit.
+                                Kapan: setiap Sabtu atau akhir pekan.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="recoveryRun"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">
+                                Recovery run
+                            </h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: memulihkan tubuh tanpa diam total.
+                                Intensitas: sangat ringan. Durasi: 20-45 menit.
+                                Manfaat: sirkulasi dan rasa kaki lebih ringan.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="hikingPowerClimb"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">
+                                Hiking power climb
+                            </h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: menguatkan tanjakan curam. Intensitas:
+                                sedang. Durasi: 30-60 menit. Manfaat: efisiensi
+                                saat tidak bisa lari full up hill.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                        <button
+                            type="button"
+                            data-intensity-modal="strengthTraining"
+                            class="intensity-card rounded-[1.5rem] bg-white p-6 text-left shadow-soft ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-glow"
+                        >
+                            <h3 class="font-bold text-slate-900">
+                                Strength training
+                            </h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Tujuan: stabilitas dan power. Intensitas:
+                                sedang. Durasi: 25-45 menit. Manfaat: melindungi
+                                lutut, ankle, dan glute.
+                            </p>
+                            <span
+                                class="mt-5 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"
+                            >
+                                Klik untuk detail
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+            >
+                <div class="grid gap-6 lg:grid-cols-2">
+                    <div
+                        class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            Persiapan Fisik Penunjang
+                        </p>
+                        <h2 class="mt-3 text-3xl font-black text-slate-900">
+                            Membuat tubuh lebih stabil, kuat, dan tahan banting
+                            di trail.
+                        </h2>
+                        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+                            <div
+                                class="flex items-start gap-3 rounded-2xl bg-slate-50 p-4"
+                            >
+                                <i
+                                    data-lucide="check-square"
+                                    class="mt-1 h-5 w-5 text-forest-700"
+                                ></i>
+                                <div>
+                                    <div class="font-semibold text-slate-900">
+                                        Strength trail run
+                                    </div>
+                                    <div class="text-sm text-slate-600">
+                                        Squat, lunge, step-up, deadlift ringan.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-3 rounded-2xl bg-slate-50 p-4"
+                            >
+                                <i
+                                    data-lucide="check-square"
+                                    class="mt-1 h-5 w-5 text-forest-700"
+                                ></i>
+                                <div>
+                                    <div class="font-semibold text-slate-900">
+                                        Core training
+                                    </div>
+                                    <div class="text-sm text-slate-600">
+                                        Plank, side plank, dead bug, hollow
+                                        hold.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-3 rounded-2xl bg-slate-50 p-4"
+                            >
+                                <i
+                                    data-lucide="check-square"
+                                    class="mt-1 h-5 w-5 text-forest-700"
+                                ></i>
+                                <div>
+                                    <div class="font-semibold text-slate-900">
+                                        Kaki dan glute
+                                    </div>
+                                    <div class="text-sm text-slate-600">
+                                        Single-leg work untuk stabilitas dan
+                                        dorongan.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-3 rounded-2xl bg-slate-50 p-4"
+                            >
+                                <i
+                                    data-lucide="check-square"
+                                    class="mt-1 h-5 w-5 text-forest-700"
+                                ></i>
+                                <div>
+                                    <div class="font-semibold text-slate-900">
+                                        Ankle stability
+                                    </div>
+                                    <div class="text-sm text-slate-600">
+                                        Balance board, calf raise, single-leg
+                                        stand.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-3 rounded-2xl bg-slate-50 p-4"
+                            >
+                                <i
+                                    data-lucide="check-square"
+                                    class="mt-1 h-5 w-5 text-forest-700"
+                                ></i>
+                                <div>
+                                    <div class="font-semibold text-slate-900">
+                                        Mobility
+                                    </div>
+                                    <div class="text-sm text-slate-600">
+                                        Hip opener, ankle mobility, thoracic
+                                        rotation.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-3 rounded-2xl bg-slate-50 p-4"
+                            >
+                                <i
+                                    data-lucide="check-square"
+                                    class="mt-1 h-5 w-5 text-forest-700"
+                                ></i>
+                                <div>
+                                    <div class="font-semibold text-slate-900">
+                                        Recovery
+                                    </div>
+                                    <div class="text-sm text-slate-600">
+                                        Foam rolling, tidur cukup, dan deload
+                                        week.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-[1.75rem] bg-gradient-to-br from-ember-500 to-forest-800 p-6 text-white shadow-soft"
+                    >
+                        <h3 class="text-2xl font-black">
+                            Checklist latihan penunjang
+                        </h3>
+                        <ul
+                            class="mt-5 space-y-4 text-sm leading-7 text-ember-50"
+                        >
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="circle-check-big"
+                                    class="mt-1 h-5 w-5 shrink-0 text-white"
+                                ></i
+                                ><span
+                                    >1-2 sesi strength per minggu, tidak selalu
+                                    sampai gagal otot.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="circle-check-big"
+                                    class="mt-1 h-5 w-5 shrink-0 text-white"
+                                ></i
+                                ><span
+                                    >Core singkat setelah easy run atau di hari
+                                    recovery aktif.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="circle-check-big"
+                                    class="mt-1 h-5 w-5 shrink-0 text-white"
+                                ></i
+                                ><span
+                                    >Latihan balance dan ankle stability untuk
+                                    mengurangi risiko terkilir.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="circle-check-big"
+                                    class="mt-1 h-5 w-5 shrink-0 text-white"
+                                ></i
+                                ><span
+                                    >Mobility dinamis sebelum lari dan
+                                    stretching ringan setelah selesai.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="circle-check-big"
+                                    class="mt-1 h-5 w-5 shrink-0 text-white"
+                                ></i
+                                ><span
+                                    >Recovery aktif, napas tenang, dan hidrasi
+                                    cukup setelah sesi berat.</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                id="gear"
+                class="bg-slate-950 py-16 text-white lg:py-20 fade-in"
+            >
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-3xl">
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-300"
+                        >
+                            Gear & Perlengkapan
+                        </p>
+                        <h2
+                            class="mt-3 text-3xl font-black tracking-tight sm:text-4xl"
+                        >
+                            Peralatan yang mendukung performa, kenyamanan, dan
+                            keamanan di trail.
+                        </h2>
+                    </div>
+                    <div class="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="footprints" class="h-5 w-5"></i
+                                >Sepatu trail
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Grip kuat, stabil, dan sesuai kontur lintasan.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="socks" class="h-5 w-5"></i>Kaos
+                                kaki
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Cepat kering dan minim gesekan untuk mengurangi
+                                lecet.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="backpack" class="h-5 w-5"></i
+                                >Hydration vest
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Membawa air, gel, dan perlengkapan penting tanpa
+                                mengganggu ritme.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="wine-off" class="h-5 w-5"></i
+                                >Soft flask
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Mudah diisi ulang dan praktis untuk hidrasi
+                                selama lari panjang.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="cup-soda" class="h-5 w-5"></i
+                                >Topi
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Melindungi dari matahari dan hujan ringan.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i
+                                    data-lucide="circle-slash-2"
+                                    class="h-5 w-5"
+                                ></i
+                                >Buff
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Berguna untuk debu, angin, atau cuaca dingin.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="watch" class="h-5 w-5"></i>Jam
+                                GPS
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Memonitor durasi, elevasi, detak jantung, dan
+                                pacing.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="life-buoy" class="h-5 w-5"></i
+                                >Emergency items
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Plester, pin, anti-chafe, dan alat darurat
+                                kecil.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i
+                                    data-lucide="package-plus"
+                                    class="h-5 w-5"
+                                ></i
+                                >Nutrition
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Gel, snack, dan elektrolit untuk long run dan
+                                race day.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="cloud-rain" class="h-5 w-5"></i
+                                >Jas hujan ringan
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Berguna saat cuaca berubah cepat di pegunungan.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="lamp" class="h-5 w-5"></i
+                                >Headlamp
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Jika start dini atau finish berpotensi malam.
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-[1.5rem] bg-white/6 p-5 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="flex items-center gap-3 font-bold text-ember-300"
+                            >
+                                <i data-lucide="circle-help" class="h-5 w-5"></i
+                                >Trekking pole
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-300">
+                                Opsional untuk race tertentu, terutama tanjakan
+                                panjang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+            >
+                <div class="grid gap-6 lg:grid-cols-2">
+                    <div
+                        class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                    >
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            Nutrisi & Hidrasi
+                        </p>
+                        <h2 class="mt-3 text-3xl font-black text-slate-900">
+                            Bahan bakar latihan menentukan kualitas recovery dan
+                            performa race.
+                        </h2>
+                        <div
+                            class="mt-6 space-y-5 text-sm leading-7 text-slate-600"
+                        >
+                            <p>
+                                <strong class="text-slate-900"
+                                    >Nutrisi harian:</strong
+                                >
+                                prioritaskan karbohidrat cukup, protein tersebar
+                                sepanjang hari, lemak sehat, sayur, buah, dan
+                                cairan yang stabil. Tubuh yang sering dipakai
+                                butuh bahan bakar yang konsisten.
+                            </p>
+                            <p>
+                                <strong class="text-slate-900"
+                                    >Sebelum latihan:</strong
+                                >
+                                makan ringan 60-120 menit sebelumnya, misalnya
+                                roti, pisang, oatmeal, atau nasi porsi kecil
+                                agar energi tersedia tanpa membuat perut berat.
+                            </p>
+                            <p>
+                                <strong class="text-slate-900"
+                                    >Saat long run:</strong
+                                >
+                                latih konsumsi gel, minum berkala, dan
+                                elektrolit. Jangan tunggu haus. Latih pola yang
+                                sama dengan yang akan dipakai saat race.
+                            </p>
+                            <p>
+                                <strong class="text-slate-900"
+                                    >Setelah latihan:</strong
+                                >
+                                kombinasikan karbohidrat dan protein dalam 30-60
+                                menit pertama untuk membantu pemulihan otot dan
+                                glikogen.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-[1.75rem] bg-gradient-to-br from-slate-950 to-forest-900 p-6 text-white shadow-soft"
+                    >
+                        <h3 class="text-2xl font-black">
+                            Strategi race nutrition
+                        </h3>
+                        <ul
+                            class="mt-5 space-y-4 text-sm leading-7 text-slate-300"
+                        >
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="droplets"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Hidrasi bertahap, bukan minum besar
+                                    sekaligus.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="beef"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Gunakan karbohidrat mudah cerna seperti
+                                    gel, drink mix, atau snack ringan.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="circle-slash"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Hindari eksperimen baru di hari lomba.
+                                    Pakai yang sudah diuji saat long run.</span
+                                >
+                            </li>
+                            <li class="flex gap-3">
+                                <i
+                                    data-lucide="banana"
+                                    class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                ></i
+                                ><span
+                                    >Makanan sederhana yang aman: pisang, roti,
+                                    nasi, kentang, oatmeal, yogurt sesuai
+                                    toleransi.</span
+                                >
+                            </li>
+                        </ul>
+                        <div
+                            class="mt-6 rounded-2xl bg-white/8 p-4 ring-1 ring-white/10"
+                        >
+                            <div
+                                class="text-xs uppercase tracking-[0.2em] text-forest-200"
+                            >
+                                Hal yang harus dihindari
+                            </div>
+                            <p class="mt-2 text-sm leading-7 text-slate-300">
+                                Jangan terlalu banyak serat sebelum race, jangan
+                                makan berat dekat start, dan jangan menunggu
+                                sampai lemas untuk mulai minum atau makan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-slate-100 py-16 lg:py-20 fade-in">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="grid gap-6 lg:grid-cols-2">
+                        <div
+                            class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200"
+                        >
+                            <p
+                                class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                            >
+                                Recovery & Pencegahan Cedera
+                            </p>
+                            <h2 class="mt-3 text-3xl font-black text-slate-900">
+                                Latihan keras hanya efektif jika recovery dijaga
+                                dengan disiplin.
+                            </h2>
+                            <div
+                                class="mt-6 space-y-4 text-sm leading-7 text-slate-600"
+                            >
+                                <p>
+                                    <strong class="text-slate-900"
+                                        >Tidur:</strong
+                                    >
+                                    prioritas utama untuk memperbaiki jaringan
+                                    dan menjaga sistem saraf.
+                                </p>
+                                <p>
+                                    <strong class="text-slate-900"
+                                        >Deload week:</strong
+                                    >
+                                    turunkan beban setiap beberapa minggu untuk
+                                    mencegah penumpukan stres.
+                                </p>
+                                <p>
+                                    <strong class="text-slate-900"
+                                        >Foam rolling & stretching:</strong
+                                    >
+                                    bantu kaki merasa lebih ringan, namun tetap
+                                    lembut dan tidak agresif.
+                                </p>
+                                <p>
+                                    <strong class="text-slate-900"
+                                        >Tanda overtraining:</strong
+                                    >
+                                    mudah lelah, performa turun, tidur
+                                    terganggu, denyut istirahat meningkat, dan
+                                    motivasi drop.
+                                </p>
+                                <p>
+                                    <strong class="text-slate-900"
+                                        >Kapan harus istirahat:</strong
+                                    >
+                                    saat nyeri tajam, bengkak, atau rasa sakit
+                                    mengubah pola lari.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-[1.75rem] bg-gradient-to-br from-forest-900 to-slate-950 p-6 text-white shadow-soft"
+                        >
+                            <h3 class="text-2xl font-black">
+                                Warning signs cedera trail runner
+                            </h3>
+                            <ul
+                                class="mt-5 space-y-4 text-sm leading-7 text-slate-300"
+                            >
+                                <li class="flex gap-3">
+                                    <i
+                                        data-lucide="alert-triangle"
+                                        class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                    ></i
+                                    ><span
+                                        >Nyeri lutut yang makin terasa saat
+                                        turunan.</span
+                                    >
+                                </li>
+                                <li class="flex gap-3">
+                                    <i
+                                        data-lucide="alert-triangle"
+                                        class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                    ></i
+                                    ><span
+                                        >Betis atau Achilles terasa tegang
+                                        berlebihan.</span
+                                    >
+                                </li>
+                                <li class="flex gap-3">
+                                    <i
+                                        data-lucide="alert-triangle"
+                                        class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                    ></i
+                                    ><span
+                                        >Ankle terasa tidak stabil setelah salah
+                                        pijak.</span
+                                    >
+                                </li>
+                                <li class="flex gap-3">
+                                    <i
+                                        data-lucide="alert-triangle"
+                                        class="mt-1 h-5 w-5 shrink-0 text-ember-300"
+                                    ></i
+                                    ><span
+                                        >Kaki terasa sangat berat walau
+                                        intensitas latihan sudah
+                                        diturunkan.</span
+                                    >
+                                </li>
+                            </ul>
+                            <div
+                                class="mt-6 rounded-2xl bg-white/8 p-4 ring-1 ring-white/10"
+                            >
+                                <div class="text-sm font-semibold text-white">
+                                    Tips aman naik/turun tanjakan
+                                </div>
+                                <p
+                                    class="mt-2 text-sm leading-7 text-slate-300"
+                                >
+                                    Pendekkan stride saat menanjak, jaga badan
+                                    sedikit condong dari pergelangan kaki, dan
+                                    turunkan langkah dengan kontrol saat
+                                    downhill. Jangan mengunci lutut di turunan
+                                    panjang.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+            >
+                <div
+                    class="rounded-[1.75rem] bg-white p-6 shadow-soft ring-1 ring-slate-200 lg:p-8"
+                >
+                    <p
+                        class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                    >
+                        Simulasi Race Strategy
+                    </p>
+                    <h2 class="mt-3 text-3xl font-black text-slate-900">
+                        Rencana balap yang mudah dieksekusi saat adrenalin naik.
+                    </h2>
+                    <div class="mt-8 grid gap-4 lg:grid-cols-4">
+                        <div class="rounded-2xl bg-slate-50 p-5">
+                            <div
+                                class="flex items-center gap-3 font-bold text-slate-900"
+                            >
+                                <i
+                                    data-lucide="play"
+                                    class="h-5 w-5 text-forest-700"
+                                ></i
+                                >KM 1-5
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Start konservatif, cari napas ritmis, jangan
+                                ikut terbawa pace peserta lain. Fokus pada
+                                posisi tubuh dan footing.
+                            </p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 p-5">
+                            <div
+                                class="flex items-center gap-3 font-bold text-slate-900"
+                            >
+                                <i
+                                    data-lucide="triangle"
+                                    class="h-5 w-5 text-ember-600"
+                                ></i
+                                >KM 6-10
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Mulai stabilkan effort. Makan dan minum di titik
+                                yang sudah direncanakan. Manfaatkan tanjakan
+                                untuk tetap konsisten, bukan panik.
+                            </p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 p-5">
+                            <div
+                                class="flex items-center gap-3 font-bold text-slate-900"
+                            >
+                                <i
+                                    data-lucide="sparkles"
+                                    class="h-5 w-5 text-sky-700"
+                                ></i
+                                >KM 11-15
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Ini fase mental. Jika tubuh masih stabil,
+                                naikkan sedikit effort. Jaga teknik turunan agar
+                                tidak kehilangan energi mahal.
+                            </p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-50 p-5">
+                            <div
+                                class="flex items-center gap-3 font-bold text-slate-900"
+                            >
+                                <i
+                                    data-lucide="flag"
+                                    class="h-5 w-5 text-forest-700"
+                                ></i
+                                >KM 16-18 finish push
+                            </div>
+                            <p class="mt-3 text-sm leading-7 text-slate-600">
+                                Saat Anda punya sisa tenaga, dorong progresif.
+                                Kunci napas, pertahankan form, dan gunakan sisa
+                                energi untuk finish yang kuat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-6 grid gap-4 md:grid-cols-3">
+                        <div class="rounded-2xl bg-forest-50 p-5">
+                            <div class="font-bold text-forest-900">
+                                Strategi start
+                            </div>
+                            <p class="mt-2 text-sm leading-7 text-slate-700">
+                                Tenang, rapi, tidak terburu-buru.
+                            </p>
+                        </div>
+                        <div class="rounded-2xl bg-ember-50 p-5">
+                            <div class="font-bold text-ember-900">
+                                Strategi di tanjakan
+                            </div>
+                            <p class="mt-2 text-sm leading-7 text-slate-700">
+                                Pendekkan langkah, jaga ritme, gunakan hiking
+                                bila perlu.
+                            </p>
+                        </div>
+                        <div class="rounded-2xl bg-slate-100 p-5">
+                            <div class="font-bold text-slate-900">
+                                Strategi di turunan
+                            </div>
+                            <p class="mt-2 text-sm leading-7 text-slate-700">
+                                Kontrol, lihat 2-3 langkah ke depan, jangan rem
+                                mendadak.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq" class="bg-white/85 py-16 lg:py-20 fade-in">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-3xl">
+                        <p
+                            class="text-sm font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            FAQ
+                        </p>
+                        <h2
+                            class="mt-3 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl"
+                        >
+                            Pertanyaan yang paling sering muncul sebelum mulai
+                            latihan trail 18 km.
+                        </h2>
+                    </div>
+                    <div class="mt-10 space-y-4" id="faqList"></div>
+                </div>
+            </section>
+
+            <section
+                id="cta"
+                class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+            >
+                <div
+                    class="overflow-hidden rounded-[2rem] bg-gradient-to-br from-forest-900 via-slate-950 to-ember-700 p-8 text-white shadow-soft lg:p-12"
+                >
+                    <div
+                        class="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center"
+                    >
+                        <div>
+                            <p
+                                class="text-sm font-bold uppercase tracking-[0.26em] text-ember-200"
+                            >
+                                CTA Penutup
+                            </p>
+                            <h2
+                                class="mt-3 text-3xl font-black tracking-tight sm:text-5xl"
+                            >
+                                Latihan yang rapi hari ini akan terasa sebagai
+                                kepercayaan diri di garis start.
+                            </h2>
+                            <p
+                                class="mt-5 max-w-2xl text-lg leading-8 text-slate-200"
+                            >
+                                Bangun kapasitas fisik, jaga recovery, dan masuk
+                                race dengan strategi yang jelas. Jangan hanya
+                                berlatih keras. Berlatihlah dengan arah yang
+                                tepat.
+                            </p>
+                            <div class="mt-8 flex flex-wrap gap-4">
+                                <a
+                                    href="#top"
+                                    class="inline-flex items-center gap-2 rounded-full bg-ember-500 px-6 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-ember-400"
+                                    ><i
+                                        data-lucide="arrow-up-right"
+                                        class="h-4 w-4"
+                                    ></i
+                                    >Mulai Program</a
+                                >
+                                <a
+                                    href="#program"
+                                    class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/15"
+                                    ><i
+                                        data-lucide="download"
+                                        class="h-4 w-4"
+                                    ></i
+                                    >Download Rencana</a
+                                >
+                                <a
+                                    href="#faq"
+                                    class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/15"
+                                    ><i
+                                        data-lucide="message-circle"
+                                        class="h-4 w-4"
+                                    ></i
+                                    >Hubungi Coach</a
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="rounded-[1.75rem] bg-white/10 p-6 ring-1 ring-white/10 backdrop-blur-md"
+                        >
+                            <div class="flex items-center gap-3 text-ember-200">
+                                <i data-lucide="award" class="h-5 w-5"></i
+                                ><span
+                                    class="font-bold uppercase tracking-[0.2em]"
+                                    >Target mindset</span
+                                >
+                            </div>
+                            <div
+                                class="mt-4 space-y-4 text-sm leading-7 text-slate-200"
+                            >
+                                <p>
+                                    Hari race bukan tempat untuk membuktikan
+                                    ego. Hari race adalah tempat mengeksekusi
+                                    latihan yang sudah disusun.
+                                </p>
+                                <p>
+                                    Jika latihan konsisten, Anda tidak akan
+                                    mengejar finish dengan panik. Anda akan
+                                    mengarah ke finish dengan percaya diri.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-t border-slate-200 bg-white py-10">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <div>
+                        <div
+                            class="text-sm font-bold uppercase tracking-[0.22em] text-forest-800"
+                        >
+                            Latihan Trail Run BTS Ultra 18KM 2026
+                        </div>
+                        <p class="mt-3 text-sm leading-7 text-slate-600">
+                            Landing page panduan latihan premium yang dirancang
+                            agar siap di-upload ke hosting biasa tanpa build
+                            tools.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="text-sm font-semibold text-slate-900">
+                            Navigasi singkat
+                        </div>
+                        <div
+                            class="mt-3 grid grid-cols-2 gap-2 text-sm text-slate-600"
+                        >
+                            <a href="#tentang" class="hover:text-ember-700"
+                                >Tentang</a
+                            >
+                            <a href="#program" class="hover:text-ember-700"
+                                >Program</a
+                            >
+                            <a href="#gear" class="hover:text-ember-700"
+                                >Gear</a
+                            >
+                            <a href="#faq" class="hover:text-ember-700">FAQ</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-sm font-semibold text-slate-900">
+                            Catatan
+                        </div>
+                        <p class="mt-3 text-sm leading-7 text-slate-600">
+                            Program dapat disesuaikan dengan kondisi peserta,
+                            riwayat cedera, tingkat kebugaran, dan karakter rute
+                            event yang sesungguhnya.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="mt-8 flex flex-col gap-3 border-t border-slate-200 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between"
+                >
+                    <p>
+                        © 2026 Latihan Trail Run BTS Ultra 18KM. Semua hak
+                        dilindungi.
+                    </p>
+                    <p>
+                        Disusun untuk kebutuhan landing page event dan training
+                        planner profesional.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <button
+            id="backToTop"
+            class="fixed bottom-5 right-5 z-50 hidden rounded-full bg-forest-800 p-4 text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-forest-700"
+            aria-label="Kembali ke atas"
+        >
+            <i data-lucide="arrow-up" class="h-5 w-5"></i>
+        </button>
+
+        <div
+            id="intensityModal"
+            class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-950/70 px-4 py-6 backdrop-blur-sm"
+            aria-hidden="true"
+        >
+            <div class="absolute inset-0" data-modal-close></div>
+            <div
+                class="relative w-full max-w-3xl overflow-hidden rounded-[2rem] bg-white shadow-soft"
+            >
+                <div
+                    class="flex items-center justify-between border-b border-slate-200 px-5 py-4 sm:px-6"
+                >
+                    <div>
+                        <p
+                            class="text-xs font-bold uppercase tracking-[0.26em] text-ember-600"
+                        >
+                            Detail Zona Latihan
+                        </p>
+                        <h3
+                            id="intensityModalTitle"
+                            class="mt-2 text-2xl font-black text-slate-900"
+                        ></h3>
+                    </div>
+                    <button
+                        type="button"
+                        class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-700 transition hover:bg-slate-200"
+                        data-modal-close
+                        aria-label="Tutup modal"
+                    >
+                        <i data-lucide="x" class="h-5 w-5"></i>
+                    </button>
+                </div>
+                <div class="grid gap-6 p-5 sm:p-6 lg:grid-cols-[1.1fr_0.9fr]">
+                    <div>
+                        <p
+                            id="intensityModalMeaning"
+                            class="text-sm font-semibold uppercase tracking-[0.22em] text-forest-700"
+                        ></p>
+                        <p
+                            id="intensityModalDescription"
+                            class="mt-4 text-sm leading-7 text-slate-600"
+                        ></p>
+                        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+                            <div class="rounded-2xl bg-slate-50 p-4">
+                                <div
+                                    class="text-xs font-bold uppercase tracking-[0.2em] text-slate-500"
+                                >
+                                    Contoh gerakan
+                                </div>
+                                <p
+                                    id="intensityModalMovements"
+                                    class="mt-2 text-sm leading-7 text-slate-700"
+                                ></p>
+                            </div>
+                            <div class="rounded-2xl bg-slate-50 p-4">
+                                <div
+                                    class="text-xs font-bold uppercase tracking-[0.2em] text-slate-500"
+                                >
+                                    Repetisi / durasi
+                                </div>
+                                <p
+                                    id="intensityModalReps"
+                                    class="mt-2 text-sm leading-7 text-slate-700"
+                                ></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-[1.5rem] bg-gradient-to-br from-forest-900 to-slate-950 p-5 text-white"
+                    >
+                        <div class="flex items-center gap-2 text-ember-300">
+                            <i data-lucide="sparkles" class="h-5 w-5"></i>
+                            <span
+                                class="text-sm font-bold uppercase tracking-[0.2em]"
+                                >Catatan pelaksanaan</span
+                            >
+                        </div>
+                        <ul
+                            id="intensityModalNotes"
+                            class="mt-4 space-y-3 text-sm leading-7 text-slate-300"
+                        ></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const intensityDetails = {
+                easyRun: {
+                    title: "Easy run",
+                    meaning:
+                        "Lari santai untuk membangun basis aerobik, menjaga tubuh aktif, dan mempercepat recovery.",
+                    description:
+                        "Easy run dipakai ketika tujuan utama adalah menambah volume tanpa menekan sistem saraf. Di trail run, sesi ini juga melatih efisiensi langkah, pernapasan, dan kebiasaan bergerak konsisten.",
+                    movements:
+                        "Lari ringan 30-70 menit, cadence santai, strides 4-6 x 15 detik di akhir bila badan segar.",
+                    reps: "30-70 menit total, 1-2 kali per minggu, effort terasa masih bisa ngobrol.",
+                    notes: [
+                        "Gunakan ritme yang sangat nyaman, bukan pace ego.",
+                        "Tujuannya menyimpan energi untuk sesi kualitas.",
+                        "Boleh dilakukan di jalan datar, tanah, atau tanjakan sangat ringan.",
+                    ],
+                },
+                tempoRun: {
+                    title: "Tempo run",
+                    meaning:
+                        "Lari stabil pada effort yang menantang tetapi masih terkontrol.",
+                    description:
+                        "Tempo run dipakai untuk menaikkan ambang laktat dan daya tahan menahan pace. Untuk trail, tempo sering dilakukan di jalur rolling atau tanjakan landai agar tubuh belajar mempertahankan usaha saat kontur berubah.",
+                    movements:
+                        "Pemanasan 10-15 menit, lalu 2 x 8-15 menit tempo, diakhiri pendinginan 10 menit.",
+                    reps: "15-30 menit kerja inti, misalnya 2 x 12 menit atau 3 x 8 menit dengan jeda 2-3 menit.",
+                    notes: [
+                        "Napas berat tapi masih stabil.",
+                        "Jangan sprint di awal tempo.",
+                        "Pertahankan postur tegak dan langkah efisien.",
+                    ],
+                },
+                interval: {
+                    title: "Interval",
+                    meaning:
+                        "Latihan cepat singkat untuk mengembangkan speed economy dan kemampuan memulihkan napas.",
+                    description:
+                        "Interval memberi stimulus intensitas tinggi dalam durasi pendek. Ini membantu kaki lebih responsif saat tanjakan, keluar dari tikungan, atau saat ingin menambah pace di race finish.",
+                    movements:
+                        "400 m, 600 m, 800 m, atau 1-4 menit lari cepat dengan recovery jog/jalan.",
+                    reps: "Contoh 6 x 400 m, 5 x 800 m, atau 4 x 3 menit sesuai fase program.",
+                    notes: [
+                        "Kecepatan konsisten lebih penting daripada all-out di repetisi awal.",
+                        "Jeda recovery harus cukup agar teknik tetap rapi.",
+                        "Pilih permukaan aman dan datar untuk kontrol.",
+                    ],
+                },
+                hillRepeat: {
+                    title: "Hill repeat",
+                    meaning:
+                        "Repetisi tanjakan untuk membangun power kaki, napas, dan toleransi effort di elevasi.",
+                    description:
+                        "Hill repeat adalah inti penting untuk trail runner karena medan lomba sering memaksa pelari menaikkan usaha tanpa bisa mempertahankan pace datar. Sesi ini menguatkan glute, betis, hamstring, dan kapasitas aerobik sekaligus.",
+                    movements:
+                        "Lari menanjak pendek dengan langkah pendek, badan sedikit condong, ayunan tangan aktif.",
+                    reps: "6-10 repetisi x 45-90 detik atau 4-6 repetisi x 3-5 menit, recovery turun/jalan.",
+                    notes: [
+                        "Jangan mengejar speed mentah, kejar form yang stabil.",
+                        "Turun pelan sebagai recovery dan latihan kontrol.",
+                        "Fokus ke napas, dorongan lutut, dan kontak kaki yang efisien.",
+                    ],
+                },
+                longRun: {
+                    title: "Long run",
+                    meaning:
+                        "Lari panjang untuk melatih ketahanan, pembakaran energi, dan simulasi fueling.",
+                    description:
+                        "Long run adalah sesi paling spesifik untuk race 18 km karena mengajarkan tubuh bertahan lama sambil menjaga ritme makan-minum. Pada trail, long run juga melatih ketahanan otot stabilizer dan pengambilan keputusan saat lelah.",
+                    movements:
+                        "Lari 75-150 menit di permukaan campuran, bisa diselingi hiking pada tanjakan curam.",
+                    reps: "1 sesi per minggu, durasi naik bertahap, long run puncak mendekati simulasi race.",
+                    notes: [
+                        "Jaga effort mudah sampai sedang.",
+                        "Latih gel, air, dan elektrolit di sesi ini.",
+                        "Usahakan rute mirip race jika memungkinkan.",
+                    ],
+                },
+                recoveryRun: {
+                    title: "Recovery run",
+                    meaning:
+                        "Lari sangat ringan untuk memperlancar sirkulasi dan menurunkan rasa pegal.",
+                    description:
+                        "Recovery run bukan sesi untuk menambah fitness besar, melainkan menjaga tubuh tetap bergerak dan memulihkan kaki setelah latihan keras. Di trail, ini sangat membantu menjaga ritme tanpa menambah stres berlebih.",
+                    movements:
+                        "Jog santai 20-45 menit, boleh diselingi jalan kaki jika kaki masih berat.",
+                    reps: "1-2 kali per minggu sesuai kebutuhan pemulihan.",
+                    notes: [
+                        "Tetap ringan dari awal sampai akhir.",
+                        "Gunakan untuk mengecek kondisi kaki dan sendi.",
+                        "Jika masih sangat lelah, ganti dengan jalan santai.",
+                    ],
+                },
+                hikingPowerClimb: {
+                    title: "Hiking power climb",
+                    meaning:
+                        "Jalan cepat menanjak dengan dorongan power untuk kondisi tanjakan curam.",
+                    description:
+                        "Saat tanjakan terlalu curam untuk tetap berlari efisien, hiking power climb melatih Anda memindahkan effort ke pola jalan cepat yang kuat dan stabil. Ini sangat relevan untuk trail dengan elevasi tajam.",
+                    movements:
+                        "Jalan cepat menanjak, step pendek, dorongan tumit kuat, badan condong dari pergelangan kaki.",
+                    reps: "30-60 menit total, atau 6-12 repetisi tanjakan 1-3 menit dengan recovery turun.",
+                    notes: [
+                        "Gunakan tangan aktif seperti mendaki.",
+                        "Jaga napas ritmis agar tidak meledak.",
+                        "Ideal dipakai saat sesi hill focus atau long run berbukit.",
+                    ],
+                },
+                strengthTraining: {
+                    title: "Strength training",
+                    meaning:
+                        "Latihan kekuatan untuk menopang langkah, stabilitas, dan proteksi cedera.",
+                    description:
+                        "Strength training membantu pelari trail mempertahankan form saat kaki mulai lelah. Fokusnya bukan body building, melainkan kekuatan fungsional untuk glute, core, betis, paha, dan ankle.",
+                    movements:
+                        "Squat, reverse lunge, step-up, single-leg RDL, calf raise, plank, side plank, dead bug.",
+                    reps: "2-4 set, 6-12 repetisi per gerakan, core 30-45 detik per set.",
+                    notes: [
+                        "Gunakan beban sedang dengan teknik rapi.",
+                        "Prioritaskan unilateral work dan core anti-rotasi.",
+                        "Jangan sampai strength mengganggu kualitas lari berikutnya.",
+                    ],
+                },
+                ringan: {
+                    title: "Intensitas ringan",
+                    meaning:
+                        "Zona aman untuk membangun volume tanpa banyak stres.",
+                    description:
+                        "Label ringan biasanya dipakai untuk easy run, recovery run, atau strength ringan di awal fase program. Fokusnya adalah menjaga tubuh tetap aktif dan siap menerima latihan berikutnya.",
+                    movements:
+                        "Easy jog, mobility flow, core ringan, activation drill.",
+                    reps: "20-60 menit, atau 2-3 set ringan dengan repetisi terkontrol.",
+                    notes: [
+                        "Buat sesi terasa mudah dan menyegarkan.",
+                        "Cocok saat tubuh masih beradaptasi.",
+                        "Jangan terlalu agresif mengejar pace.",
+                    ],
+                },
+                sedang: {
+                    title: "Intensitas sedang",
+                    meaning:
+                        "Zona kerja utama untuk progres tanpa terlalu menguras tubuh.",
+                    description:
+                        "Label sedang biasanya muncul pada tempo pendek, hill repeat terkontrol, atau strength menengah. Ini adalah zona yang paling sering dipakai untuk membangun fitness sekaligus menjaga recovery tetap masuk akal.",
+                    movements:
+                        "Tempo run, hill repeat moderat, strength menengah, hiking climb.",
+                    reps: "15-45 menit kerja inti, atau 3-4 set dengan repetisi sedang.",
+                    notes: [
+                        "Masih bisa dijaga tanpa mengorbankan bentuk gerak.",
+                        "Ideal dipakai saat tubuh sudah cukup segar.",
+                        "Pastikan ada hari pemulihan setelahnya bila diperlukan.",
+                    ],
+                },
+                berat: {
+                    title: "Intensitas berat",
+                    meaning:
+                        "Zona menantang yang dipakai terbatas untuk stimulus spesifik.",
+                    description:
+                        "Label berat biasanya muncul pada interval, hill repeat panjang, atau long run tertentu yang mendekati simulasi race. Penggunaannya harus terukur supaya adaptasi naik tanpa memicu overtraining.",
+                    movements:
+                        "Interval cepat, hill repeat panjang, tempo keras, simulasi long run berbukit.",
+                    reps: "Contoh 4-6 repetisi kerja keras atau 20-40 menit kerja total dengan recovery cukup.",
+                    notes: [
+                        "Gunakan hanya saat tubuh siap.",
+                        "Teknik harus tetap rapi meski effort tinggi.",
+                        "Butuh recovery yang lebih disiplin setelah sesi.",
+                    ],
+                },
+                recovery: {
+                    title: "Recovery",
+                    meaning:
+                        "Zona pemulihan untuk mengembalikan kesegaran dan mencegah penumpukan beban.",
+                    description:
+                        "Recovery dipakai ketika prioritas Anda adalah menyerap adaptasi latihan dan menurunkan stres fisik. Ini bisa berupa lari sangat ringan, jalan kaki, mobility, atau deload week.",
+                    movements:
+                        "Jog ringan, jalan kaki, stretching, mobility, foam rolling.",
+                    reps: "20-40 menit aktivitas ringan atau satu hari penuh istirahat aktif.",
+                    notes: [
+                        "Recovery adalah bagian dari program, bukan tanda malas.",
+                        "Gunakan saat kaki terasa berat atau setelah beban tinggi.",
+                        "Tanpa recovery, kualitas sesi berikutnya turun.",
+                    ],
+                },
+            };
+            const weeks = [
+                {
+                    week: "Minggu 1",
+                    phase: "base",
+                    intensity: "ringan",
+                    focus: "Base building, adaptasi ritme, dan membentuk kebiasaan latihan.",
+                    total: "22-28 km",
+                    badge: "Ringan",
+                    days: [
+                        "Senin: recovery / mobility 20 menit",
+                        "Selasa: easy run 5 km + strides",
+                        "Rabu: strength ringan + core",
+                        "Kamis: tempo pendek 2 x 8 menit",
+                        "Jumat: rest aktif / mobility",
+                        "Sabtu: long run trail 8-10 km",
+                        "Minggu: recovery jog atau hike 30 menit",
+                    ],
+                },
+                {
+                    week: "Minggu 2",
+                    phase: "base",
+                    intensity: "ringan",
+                    focus: "Menambah volume ringan dan menjaga tubuh tetap segar.",
+                    total: "24-30 km",
+                    badge: "Ringan",
+                    days: [
+                        "Senin: mobility + ankle drill",
+                        "Selasa: easy run 6 km",
+                        "Rabu: strength kaki dan glute",
+                        "Kamis: interval ringan 6 x 400 m",
+                        "Jumat: rest / core singkat",
+                        "Sabtu: long run trail 9-11 km",
+                        "Minggu: recovery jog 25-35 menit",
+                    ],
+                },
+                {
+                    week: "Minggu 3",
+                    phase: "base",
+                    intensity: "sedang",
+                    focus: "Mulai mengenalkan tanjakan kecil dan kontrol cadence.",
+                    total: "26-32 km",
+                    badge: "Sedang",
+                    days: [
+                        "Senin: recovery / stretching",
+                        "Selasa: easy run 6-7 km",
+                        "Rabu: strength + balance",
+                        "Kamis: hill repeat 6 x 60 detik",
+                        "Jumat: rest aktif",
+                        "Sabtu: long run trail 10-12 km",
+                        "Minggu: recovery jog atau hike",
+                    ],
+                },
+                {
+                    week: "Minggu 4",
+                    phase: "base",
+                    intensity: "recovery",
+                    focus: "Deload ringan untuk menguatkan adaptasi sebelum naik fase.",
+                    total: "20-26 km",
+                    badge: "Recovery",
+                    days: [
+                        "Senin: mobility / core",
+                        "Selasa: easy run 5 km",
+                        "Rabu: strength ringan",
+                        "Kamis: tempo ringan 15 menit",
+                        "Jumat: rest",
+                        "Sabtu: long run pendek 8-9 km",
+                        "Minggu: jalan santai atau hike ringan",
+                    ],
+                },
+                {
+                    week: "Minggu 5",
+                    phase: "strength",
+                    intensity: "sedang",
+                    focus: "Strength & climbing adaptation dimulai dengan hill work lebih jelas.",
+                    total: "28-35 km",
+                    badge: "Sedang",
+                    days: [
+                        "Senin: recovery / ankle stability",
+                        "Selasa: easy run 7 km",
+                        "Rabu: strength kaki + glute",
+                        "Kamis: hill repeat 8 x 75 detik",
+                        "Jumat: rest / core",
+                        "Sabtu: long run trail 12-13 km",
+                        "Minggu: recovery jog 30 menit",
+                    ],
+                },
+                {
+                    week: "Minggu 6",
+                    phase: "strength",
+                    intensity: "berat",
+                    focus: "Menaikkan toleransi tanjakan dan kerja otot kaki.",
+                    total: "30-38 km",
+                    badge: "Berat",
+                    days: [
+                        "Senin: mobility + foam roll",
+                        "Selasa: easy run 6-7 km + strides",
+                        "Rabu: strength menengah",
+                        "Kamis: interval hill 5 x 3 menit",
+                        "Jumat: rest aktif",
+                        "Sabtu: long run trail 13-14 km",
+                        "Minggu: recovery hike atau jog",
+                    ],
+                },
+                {
+                    week: "Minggu 7",
+                    phase: "strength",
+                    intensity: "sedang",
+                    focus: "Kombinasi tempo dan climbing untuk membangun kontrol effort.",
+                    total: "32-40 km",
+                    badge: "Sedang",
+                    days: [
+                        "Senin: recovery / stretch",
+                        "Selasa: easy run 7 km",
+                        "Rabu: strength + core",
+                        "Kamis: tempo trail 20 menit",
+                        "Jumat: rest",
+                        "Sabtu: long run trail 14-15 km",
+                        "Minggu: recovery jog 30-40 menit",
+                    ],
+                },
+                {
+                    week: "Minggu 8",
+                    phase: "strength",
+                    intensity: "recovery",
+                    focus: "Deload dan menjaga kaki tetap segar untuk fase spesifik.",
+                    total: "24-30 km",
+                    badge: "Recovery",
+                    days: [
+                        "Senin: mobility",
+                        "Selasa: easy run 5-6 km",
+                        "Rabu: strength ringan",
+                        "Kamis: hill repeat pendek 6 x 45 detik",
+                        "Jumat: rest",
+                        "Sabtu: long run trail 10-11 km",
+                        "Minggu: hike santai",
+                    ],
+                },
+                {
+                    week: "Minggu 9",
+                    phase: "specific",
+                    intensity: "sedang",
+                    focus: "Endurance & race specificity dengan kontur yang makin mirip lomba.",
+                    total: "34-42 km",
+                    badge: "Sedang",
+                    days: [
+                        "Senin: recovery / mobility",
+                        "Selasa: easy run 7-8 km",
+                        "Rabu: strength maintenance",
+                        "Kamis: tempo 2 x 12 menit",
+                        "Jumat: rest / core",
+                        "Sabtu: long run trail 15-16 km",
+                        "Minggu: recovery jog atau hike",
+                    ],
+                },
+                {
+                    week: "Minggu 10",
+                    phase: "specific",
+                    intensity: "berat",
+                    focus: "Latihan fueling saat long run dan peningkatan daya tahan climbing.",
+                    total: "36-44 km",
+                    badge: "Berat",
+                    days: [
+                        "Senin: mobility + foot drill",
+                        "Selasa: easy run 7 km",
+                        "Rabu: strength singkat",
+                        "Kamis: hill repeat 10 x 60 detik",
+                        "Jumat: rest",
+                        "Sabtu: long run trail 16-17 km dengan fueling",
+                        "Minggu: recovery jog",
+                    ],
+                },
+                {
+                    week: "Minggu 11",
+                    phase: "specific",
+                    intensity: "sedang",
+                    focus: "Meningkatkan ketahanan tempo di medan campuran.",
+                    total: "34-42 km",
+                    badge: "Sedang",
+                    days: [
+                        "Senin: recovery",
+                        "Selasa: easy run 8 km",
+                        "Rabu: strength maintenance",
+                        "Kamis: tempo trail 25 menit",
+                        "Jumat: rest / mobility",
+                        "Sabtu: long run trail 15-16 km",
+                        "Minggu: hike atau recovery run",
+                    ],
+                },
+                {
+                    week: "Minggu 12",
+                    phase: "specific",
+                    intensity: "recovery",
+                    focus: "Deload terkontrol untuk menjaga adaptasi tetap tumbuh.",
+                    total: "26-32 km",
+                    badge: "Recovery",
+                    days: [
+                        "Senin: mobility",
+                        "Selasa: easy run 6 km",
+                        "Rabu: core + balance",
+                        "Kamis: hill pendek 5 x 60 detik",
+                        "Jumat: rest",
+                        "Sabtu: long run 11-12 km",
+                        "Minggu: jalan santai / recovery jog",
+                    ],
+                },
+                {
+                    week: "Minggu 13",
+                    phase: "peak",
+                    intensity: "berat",
+                    focus: "Peak block dengan simulasi race effort dan manajemen energi.",
+                    total: "34-40 km",
+                    badge: "Berat",
+                    days: [
+                        "Senin: recovery / stretch",
+                        "Selasa: easy run 7 km",
+                        "Rabu: strength ringan",
+                        "Kamis: tempo 3 x 8 menit",
+                        "Jumat: rest",
+                        "Sabtu: long run trail 16-18 km simulasi race",
+                        "Minggu: recovery jog",
+                    ],
+                },
+                {
+                    week: "Minggu 14",
+                    phase: "peak",
+                    intensity: "berat",
+                    focus: "Puncak adaptasi dan kontrol downhill dengan kelelahan terukur.",
+                    total: "32-38 km",
+                    badge: "Berat",
+                    days: [
+                        "Senin: mobility",
+                        "Selasa: easy run 7 km",
+                        "Rabu: hill repeat 8 x 90 detik",
+                        "Kamis: recovery run 5 km",
+                        "Jumat: rest / core",
+                        "Sabtu: long run trail 14-16 km",
+                        "Minggu: hike recovery",
+                    ],
+                },
+                {
+                    week: "Minggu 15",
+                    phase: "peak",
+                    intensity: "sedang",
+                    focus: "Mulai taper, volume turun tetapi rasa tajam tetap dijaga.",
+                    total: "24-30 km",
+                    badge: "Sedang",
+                    days: [
+                        "Senin: recovery",
+                        "Selasa: easy run 6 km + strides",
+                        "Rabu: strength sangat ringan",
+                        "Kamis: tempo singkat 15 menit",
+                        "Jumat: rest",
+                        "Sabtu: long run trail 10-12 km",
+                        "Minggu: recovery jog",
+                    ],
+                },
+                {
+                    week: "Minggu 16",
+                    phase: "peak",
+                    intensity: "recovery",
+                    focus: "Race week taper, kaki segar, mental siap, nutrisi terkendali.",
+                    total: "12-20 km + race",
+                    badge: "Recovery",
+                    days: [
+                        "Senin: mobility ringan",
+                        "Selasa: easy run 5 km",
+                        "Rabu: rest / activation",
+                        "Kamis: strides 20 menit ringan",
+                        "Jumat: rest total, fokus tidur",
+                        "Sabtu: race day BTS Ultra 18KM 2026",
+                        "Minggu: recovery walk dan rehidrasi",
+                    ],
+                },
+            ];
+
+            const faqData = [
+                [
+                    "Apakah pemula bisa ikut program ini?",
+                    "Bisa, selama sudah punya kebiasaan bergerak rutin. Program ini cocok untuk pemula aktif karena progresnya bertahap dan ada fase recovery yang jelas.",
+                ],
+                [
+                    "Berapa kali latihan per minggu?",
+                    "Idealnya 5-6 hari aktif per minggu, termasuk 2 sesi kualitas, 1 long run, 1-2 strength, dan 1-2 hari recovery.",
+                ],
+                [
+                    "Apakah harus selalu latihan di gunung?",
+                    "Tidak. Jika tidak ada gunung, gunakan tanjakan pendek, treadmill incline, jembatan, tangga, atau loop berbukit untuk stimulasi climbing.",
+                ],
+                [
+                    "Bagaimana jika saya tidak punya elevasi?",
+                    "Anda tetap bisa berlatih dengan hill repeats, hiking power climb, stairs, dan strength kaki untuk mengganti stimulus elevasi.",
+                ],
+                [
+                    "Kapan waktu taper?",
+                    "Taper idealnya dimulai sekitar 2 minggu sebelum race dengan penurunan volume bertahap, sambil mempertahankan sentuhan intensitas ringan.",
+                ],
+                [
+                    "Bagaimana mengatur pace?",
+                    "Gunakan effort dan napas sebagai panduan utama. Pace trail harus fleksibel karena kontur, permukaan, dan elevasi akan mengubah kecepatan.",
+                ],
+                [
+                    "Apakah long run harus selalu lebih panjang?",
+                    "Tidak selalu. Long run harus progresif, lalu diselingi deload agar tubuh sempat menyerap adaptasi.",
+                ],
+                [
+                    "Apa tanda latihan terlalu berat?",
+                    "Jika kualitas tidur menurun, kaki terasa berat terus-menerus, denyut istirahat naik, atau motivasi turun drastis, kurangi beban.",
+                ],
+                [
+                    "Apakah strength training wajib?",
+                    "Wajib bila Anda ingin lebih aman dan stabil di trail. Strength membantu lutut, ankle, glute, dan core bekerja lebih efisien.",
+                ],
+                [
+                    "Apa yang harus dilakukan jika nyeri muncul?",
+                    "Hentikan sesi intensitas, evaluasi gerak, dan beri waktu recovery. Nyeri tajam atau bengkak sebaiknya tidak dipaksakan.",
+                ],
+            ];
+
+            const weeksGrid = document.getElementById("weeksGrid");
+            const phaseButtons = [...document.querySelectorAll(".phase-btn")];
+            const intensityModal = document.getElementById("intensityModal");
+            const intensityModalTitle = document.getElementById(
+                "intensityModalTitle",
+            );
+            const intensityModalMeaning = document.getElementById(
+                "intensityModalMeaning",
+            );
+            const intensityModalDescription = document.getElementById(
+                "intensityModalDescription",
+            );
+            const intensityModalMovements = document.getElementById(
+                "intensityModalMovements",
+            );
+            const intensityModalReps =
+                document.getElementById("intensityModalReps");
+            const intensityModalNotes = document.getElementById(
+                "intensityModalNotes",
+            );
+
+            function openIntensityModal(key) {
+                const data = intensityDetails[key];
+                if (!data) return;
+
+                intensityModalTitle.textContent = data.title;
+                intensityModalMeaning.textContent = data.meaning;
+                intensityModalDescription.textContent = data.description;
+                intensityModalMovements.textContent = data.movements;
+                intensityModalReps.textContent = data.reps;
+                intensityModalNotes.innerHTML = data.notes
+                    .map(
+                        (note) => `
+                            <li class="flex gap-3">
+                                <i data-lucide="check-circle-2" class="mt-1 h-5 w-5 shrink-0 text-ember-300"></i>
+                                <span>${note}</span>
+                            </li>
+                        `,
+                    )
+                    .join("");
+                intensityModal.classList.remove("hidden");
+                intensityModal.classList.add("flex");
+                intensityModal.setAttribute("aria-hidden", "false");
+                lucide.createIcons();
+            }
+
+            function closeIntensityModal() {
+                intensityModal.classList.add("hidden");
+                intensityModal.classList.remove("flex");
+                intensityModal.setAttribute("aria-hidden", "true");
+            }
+
+            function intensityClass(intensity) {
+                if (intensity === "berat")
+                    return "bg-rose-500/15 text-rose-200 ring-1 ring-rose-400/30";
+                if (intensity === "sedang")
+                    return "bg-amber-500/15 text-amber-100 ring-1 ring-amber-400/30";
+                if (intensity === "recovery")
+                    return "bg-sky-500/15 text-sky-100 ring-1 ring-sky-400/30";
+                return "bg-emerald-500/15 text-emerald-100 ring-1 ring-emerald-400/30";
+            }
+
+            function phaseLabel(phase) {
+                return (
+                    {
+                        base: "Minggu 1-4 · Base Building",
+                        strength: "Minggu 5-8 · Strength & Climbing",
+                        specific: "Minggu 9-12 · Endurance & Specific",
+                        peak: "Minggu 13-16 · Peak + Taper",
+                    }[phase] || phase
+                );
+            }
+
+            function renderWeeks(filter = "all") {
+                weeksGrid.innerHTML = weeks
+                    .filter((week) =>
+                        filter === "all" ? true : week.phase === filter,
+                    )
+                    .map(
+                        (week) => `
+          <article class="week-card fade-in rounded-[1.5rem] bg-white p-5 text-slate-800 shadow-soft ring-1 ring-slate-200" data-phase="${week.phase}">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <div class="text-xs font-bold uppercase tracking-[0.22em] text-ember-600">${phaseLabel(week.phase)}</div>
+                <h3 class="mt-2 text-2xl font-black text-slate-950">${week.week}</h3>
+              </div>
+                            <button type="button" data-intensity-modal="${week.intensity}" class="rounded-full px-3 py-1 text-xs font-bold ${intensityClass(week.intensity)} transition hover:scale-105">${week.badge}</button>
+            </div>
+            <p class="mt-4 text-sm leading-7 text-slate-600">${week.focus}</p>
+            <div class="mt-4 flex items-center justify-between rounded-2xl bg-slate-50 px-4 py-3 text-sm">
+              <span class="font-semibold text-slate-700">Estimasi jarak</span>
+              <span class="font-black text-slate-900">${week.total}</span>
+            </div>
+            <div class="mt-4 space-y-2">
+              ${week.days.map((day) => `<div class="rounded-xl bg-slate-50 px-4 py-3 text-sm leading-6 text-slate-600">${day}</div>`).join("")}
+            </div>
+          </article>
+        `,
+                    )
+                    .join("");
+                requestAnimationFrame(() => {
+                    observeReveal();
+                });
+            }
+
+            function renderFaq() {
+                const faqList = document.getElementById("faqList");
+                faqList.innerHTML = faqData
+                    .map(
+                        ([question, answer], index) => `
+        <div class="faq-item rounded-[1.25rem] border border-slate-200 bg-white shadow-soft">
+          <button class="faq-toggle flex w-full items-center justify-between gap-4 p-5 text-left" aria-expanded="false">
+            <span class="text-base font-semibold text-slate-900">${index + 1}. ${question}</span>
+            <span class="flex h-9 w-9 items-center justify-center rounded-full bg-slate-100 text-slate-700"><i data-lucide="chevron-down" class="faq-icon h-4 w-4 transition-transform"></i></span>
+          </button>
+          <div class="faq-panel px-5 pb-5 text-sm leading-7 text-slate-600">
+            ${answer}
+          </div>
+        </div>
+      `,
+                    )
+                    .join("");
+
+                document.querySelectorAll(".faq-toggle").forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        const item = btn.closest(".faq-item");
+                        const open = item.classList.contains("open");
+                        document
+                            .querySelectorAll(".faq-item")
+                            .forEach((other) => {
+                                other.classList.remove("open");
+                                other
+                                    .querySelector(".faq-toggle")
+                                    .setAttribute("aria-expanded", "false");
+                                other.querySelector(
+                                    ".faq-icon",
+                                ).style.transform = "rotate(0deg)";
+                            });
+                        if (!open) {
+                            item.classList.add("open");
+                            btn.setAttribute("aria-expanded", "true");
+                            btn.querySelector(".faq-icon").style.transform =
+                                "rotate(180deg)";
+                        }
+                    });
+                });
+            }
+
+            function observeReveal() {
+                const items = document.querySelectorAll(".fade-in");
+                const observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add("is-visible");
+                            }
+                        });
+                    },
+                    { threshold: 0.15 },
+                );
+                items.forEach((item) => observer.observe(item));
+
+                const fills = document.querySelectorAll(".progress-fill");
+                fills.forEach((fill) => {
+                    observer.observe(fill.parentElement.parentElement);
+                    fill.parentElement.parentElement.classList.add(
+                        "progress-observe",
+                    );
+                });
+                const progressObserver = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (entry.isIntersecting) {
+                                entry.target
+                                    .querySelectorAll(".progress-fill")
+                                    .forEach((fill) =>
+                                        fill.classList.add("animate"),
+                                    );
+                            }
+                        });
+                    },
+                    { threshold: 0.4 },
+                );
+                document
+                    .querySelectorAll(".progress-observe")
+                    .forEach((section) => progressObserver.observe(section));
+            }
+
+            phaseButtons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    phaseButtons.forEach((btn) => {
+                        btn.classList.remove("bg-ember-500", "text-white");
+                        btn.classList.add(
+                            "bg-white/10",
+                            "text-white",
+                            "ring-1",
+                            "ring-white/15",
+                        );
+                    });
+                    button.classList.add("bg-ember-500", "text-white");
+                    button.classList.remove(
+                        "bg-white/10",
+                        "ring-1",
+                        "ring-white/15",
+                    );
+                    renderWeeks(button.dataset.phase);
+                });
+            });
+
+            document.addEventListener("click", (event) => {
+                const trigger = event.target.closest("[data-intensity-modal]");
+                if (trigger) {
+                    openIntensityModal(
+                        trigger.getAttribute("data-intensity-modal"),
+                    );
+                    return;
+                }
+
+                if (
+                    event.target.matches("[data-modal-close]") ||
+                    event.target.closest("[data-modal-close]")
+                ) {
+                    closeIntensityModal();
+                }
+            });
+
+            window.addEventListener("keydown", (event) => {
+                if (
+                    event.key === "Escape" &&
+                    !intensityModal.classList.contains("hidden")
+                ) {
+                    closeIntensityModal();
+                }
+            });
+
+            document.getElementById("menuBtn").addEventListener("click", () => {
+                document
+                    .getElementById("mobileMenu")
+                    .classList.toggle("hidden");
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach((link) => {
+                link.addEventListener("click", (event) => {
+                    const id = link.getAttribute("href");
+                    if (id.length > 1 && document.querySelector(id)) {
+                        event.preventDefault();
+                        document.querySelector(id).scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                        });
+                        document
+                            .getElementById("mobileMenu")
+                            .classList.add("hidden");
+                    }
+                });
+            });
+
+            const navLinks = [...document.querySelectorAll(".nav-link")];
+            const sections = navLinks
+                .map((link) =>
+                    document.querySelector(link.getAttribute("href")),
+                )
+                .filter(Boolean);
+            const navObserver = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            navLinks.forEach((link) =>
+                                link.classList.remove("active"),
+                            );
+                            const active = navLinks.find(
+                                (link) =>
+                                    link.getAttribute("href") ===
+                                    `#${entry.target.id}`,
+                            );
+                            if (active) active.classList.add("active");
+                        }
+                    });
+                },
+                { threshold: 0.35, rootMargin: "-15% 0px -55% 0px" },
+            );
+            sections.forEach((section) => navObserver.observe(section));
+
+            const backToTop = document.getElementById("backToTop");
+            window.addEventListener(
+                "scroll",
+                () => {
+                    backToTop.classList.toggle("hidden", window.scrollY < 700);
+                },
+                { passive: true },
+            );
+            backToTop.addEventListener("click", () =>
+                window.scrollTo({ top: 0, behavior: "smooth" }),
+            );
+
+            renderWeeks("all");
+            renderFaq();
+            lucide.createIcons();
+            observeReveal();
+        </script>
+    </body>
+</html>
