@@ -594,7 +594,7 @@ function renderWeeks(filter = "all") {
     .filter((week) => (filter === "all" ? true : week.phase === filter))
     .map(
       (week) => `
-                <article class="week-card fade-in rounded-[1.5rem] bg-white p-5 text-slate-800 shadow-soft ring-1 ring-slate-200" data-phase="${week.phase}">
+                <article class="week-card rounded-[1.5rem] bg-white p-5 text-slate-800 shadow-soft ring-1 ring-slate-200" data-phase="${week.phase}">
                     <div class="flex items-start justify-between gap-4">
                         <div>
                             <div class="text-xs font-bold uppercase tracking-[0.22em] text-ember-600">${phaseLabel(week.phase)}</div>

@@ -144,7 +144,7 @@
     "fragment-program": `
 <section
     id="program"
-    class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 fade-in"
+    class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"
 >
     <div
         class="rounded-[1.75rem] bg-gradient-to-br from-forest-900 via-slate-950 to-ember-700 p-6 text-white shadow-soft lg:p-8"
