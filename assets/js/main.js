@@ -663,9 +663,15 @@ function renderFaq() {
 }
 
 function observeReveal() {
-  if (typeof IntersectionObserver === "undefined") return;
-
   const items = document.querySelectorAll(".fade-in");
+  const fills = document.querySelectorAll(".progress-fill");
+
+  if (typeof IntersectionObserver === "undefined") {
+    items.forEach((item) => item.classList.add("is-visible"));
+    fills.forEach((fill) => fill.classList.add("animate"));
+    return;
+  }
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -679,7 +685,6 @@ function observeReveal() {
 
   items.forEach((item) => observer.observe(item));
 
-  const fills = document.querySelectorAll(".progress-fill");
   fills.forEach((fill) => {
     observer.observe(fill.parentElement.parentElement);
     fill.parentElement.parentElement.classList.add("progress-observe");
@@ -810,6 +815,7 @@ function bindEvents() {
 }
 
 function init() {
+  document.documentElement.classList.add("js");
   renderWeeks("all");
   renderFaq();
   bindEvents();
